@@ -109,7 +109,6 @@ module "enrich_kinesis" {
 
 # --- SNOWFLAKE LOADER
 
-
 module "sf_loader" {
   source  = "snowplow-devops/snowflake-streaming-loader-ec2/aws"
   version = "0.1.2"
